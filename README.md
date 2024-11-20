@@ -1,47 +1,47 @@
-<img src="https://github.com/user-attachments/assets/e1e0fe16-21f4-44c8-a22d-39b4494433a1" alt="Link Management Logo" width="50" height="50">
+<img src="https://github.com/user-attachments/assets/e1e0fe16-21f4-44c8-a22d-39b4494433a1" alt="Troika Hub Logo" width="50" height="50">
 
-# 🔗 Linkify - The Link Management Platform for Businesses(Landing Page)
+# Troika Hub - The All-in-One Creative Lab for Innovators (Landing Page)
 
-<!-- <img src="https://github.com/user-attachments/assets/deab03fd-4234-44c3-a6ad-484c4a1a02a1" alt="Linkify Thubmnail"> -->
-<img src="https://github.com/user-attachments/assets/ee867e8e-7871-4289-bd56-3eef40adb9b2" alt="Linkify Thumbnail" style="border-radius: 50px;" width="1280">
+<!-- <img src="https://github.com/user-attachments/assets/deab03fd-4234-44c3-a6ad-484c4a1a02a1" alt="Troika Hub Thumbnail"> -->
+<img src="https://github.com/user-attachments/assets/ee867e8e-7871-4289-bd56-3eef40adb9b2" alt="Troika Hub Thumbnail" style="border-radius: 50px;" width="1280">
 
+## Introduction
+Troika Hub is a powerful platform designed to foster creativity and productivity. Whether you're building innovative web apps, automating tasks, or developing AI-driven tools, Troika Hub provides the resources and tools to bring your ideas to life. Our ecosystem includes Inquirix, Optix, Conferix, Scrapix, and more, empowering individuals and teams to create, collaborate, and innovate.
 
-## 🌟 Introduction
-Linkify is an innovative link management software designed to help you shorten, track, and optimize your links effortlessly. Built with React, Node.js, and MongoDB, Linkify provides powerful analytics and user-friendly Products to enhance your link-sharing experience.
+## Products
 
-## 🚀 Products
+- **Inquirix:** An AI-powered tool that converts PDFs into chatbots, making learning and information retrieval seamless.
+- **Optix:** A task automation platform that helps streamline your daily work and optimize processes.
+- **Conferix:** A video conferencing tool designed to enhance communication and productivity with AI-driven insights and features.
+- **Scrapix:** A web scraping tool that simplifies the process of extracting data from websites to fuel your projects.
 
-- **Link Shortening:** Easily create short links for better sharing.
-- **Analytics Dashboard:** Track clicks, user engagement, and performance metrics.
-- **Customizable Links:** Create branded links that reflect your identity.
-- **AI-Powered Suggestions:** Get smart recommendations for link optimization.
+## Live Preview
 
-## 🔗 Live Preview
+Check out the live demo of Troika Hub’s ecosystem here: [Live Preview](http://troikahub-demo.vercel.app)
 
-Check out the live demo of Linkify here: [Live Preview](http://Linkify-demo.vercel.app)
+## Watch Demo on YouTube
 
-## 🎥 Watch Demo on YouTube
+Check out the tutorial to see how Troika Hub and its tools are built: [Watch the Tutorial](https://youtu.be/TroikaHubDemo)
 
-Check out the tutorial to see how this link management system was built: [Watch the Tutorial](https://youtu.be/3_sZPAfVR_U) 💻 
+## Tech Stack
 
-## 💻 Tech Stack
-
+* React
 * Next.js
 * Tailwind CSS
-* Shadcn UI
-* Magic UI
-* Aceternity UI
+* Three.js
 * Prisma
 * MongoDB
+* Socket.io
 * Clerk
-* React Hook Form
+* TypeScript
+* AWS
 
-## 🛠️ Installation
-To run Linkify locally, follow these steps:
+## Installation
+To run Troika Hub locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Shreyas-29/linkify.git
+    git clone https://github.com/TroikaHub/troika-hub.git
     ```
 2. Install dependencies:
     ```bash
@@ -50,15 +50,15 @@ To run Linkify locally, follow these steps:
 3. Set up environment variables in a `.env` file:
     ```
    # app
-    NEXT_PUBLIC_APP_DOMAIN=
-    NEXT_PUBLIC_APP_NAME=
+    NEXT_PUBLIC_APP_DOMAIN=your-domain
+    NEXT_PUBLIC_APP_NAME=TroikaHub
 
     # clerk
-    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-    CLERK_SECRET_KEY=
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your-publishable-key
+    CLERK_SECRET_KEY=your-secret-key
 
     # database
-    DATABASE_URL=
+    DATABASE_URL=your-database-url
     ```
 
 4. Run the development server:
@@ -66,16 +66,16 @@ To run Linkify locally, follow these steps:
     npm run dev
     ```
 
-## ☕ Buy Me a Coffee
-If you enjoy using Linkify, consider supporting my work!  
-[Buy Me a Coffee ☕](https://buymeacoffee.com/shreyas29)
+## Buy Me a Coffee
+If you enjoy using Troika Hub, consider supporting my work!  
+[Buy Me a Coffee](https://buymeacoffee.com/sulaiman)
 
-## 📜 License
+## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 💬 Contact
-If you have any questions or feedback, feel free to reach out via [GitHub Issues](https://github.com/Shreyas-29/linkify/issues).
+## Contact
+If you have any questions or feedback, feel free to reach out via [GitHub Issues](https://github.com/TroikaHub/troika-hub/issues).
 
 ---
 
-Built with ❤️ by [Sulaiman](https://shreyas-sihasane.vercel.app/)
+Built with ❤️ by [Sulaiman](https://troikahub.tech)
