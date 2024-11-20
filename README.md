@@ -79,4 +79,4 @@ If you have any questions or feedback, feel free to reach out via [GitHub Issues
 
 ---
 
-Built with ❤️ by [Sulaiman](https://troikahub.tech)
+Built with ❤️ by [Sulaiman](https://sulaiweb.me)
