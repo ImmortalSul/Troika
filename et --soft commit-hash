@@ -1,0 +1,72 @@
+[33mcommit e1a0f477df89868b05edb8bf146df2ae7eb767c1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: ImmortalSul <157292013+ImmortalSul@users.noreply.github.com>
+Date:   Thu Nov 21 01:04:55 2024 +0530
+
+    prune
+
+[33mcommit 260aeef086f9bc50a74a7765559d1ad789208847[m
+Author: ImmortalSul <157292013+ImmortalSul@users.noreply.github.com>
+Date:   Wed Nov 20 19:51:09 2024 +0530
+
+    links
+
+[33mcommit 12e8c8dd35ba6822b04dcad8443d0e0990daf97c[m
+Author: ImmortalSul <157292013+ImmortalSul@users.noreply.github.com>
+Date:   Wed Nov 20 19:48:26 2024 +0530
+
+    links
+
+[33mcommit b4e36722ac0722ae14e899d0cb31772a421a69ae[m
+Author: ImmortalSul <157292013+ImmortalSul@users.noreply.github.com>
+Date:   Wed Nov 20 19:47:53 2024 +0530
+
+    Thumbnail
+
+[33mcommit 41c2de40aa4a73c1678ffcd759016fb4d2de8ae1[m
+Author: ImmortalSul <157292013+ImmortalSul@users.noreply.github.com>
+Date:   Wed Nov 20 19:46:16 2024 +0530
+
+    Thumbnail
+
+[33mcommit 535036327713691b81e934ea89e5af905ea3c92b[m
+Author: ImmortalSul <157292013+ImmortalSul@users.noreply.github.com>
+Date:   Wed Nov 20 19:32:16 2024 +0530
+
+    README
+
+[33mcommit 494197bca3f22e0319f40dab43c702bb598fe8cd[m
+Merge: 5967e88 cfacded
+Author: ImmortalSul <157292013+ImmortalSul@users.noreply.github.com>
+Date:   Wed Nov 20 19:26:44 2024 +0530
+
+    Merge branch 'master'
+
+[33mcommit 5967e886ed28f45133873664693daccd5624b4af[m
+Author: ImmortalSul <157292013+ImmortalSul@users.noreply.github.com>
+Date:   Wed Nov 20 19:13:13 2024 +0530
+
+    Finalizing the design and info
+
+[33mcommit 5c9699c45d01b4b2d1363d3069800c896c015647[m
+Author: ImmortalSul <157292013+ImmortalSul@users.noreply.github.com>
+Date:   Tue Nov 19 17:41:38 2024 +0530
+
+    Main struct of site mostly un changed
+
+[33mcommit cfacded6482fbf1f7c25d1cf36976d6b2104f942[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: ImmortalSul <157292013+ImmortalSul@users.noreply.github.com>
+Date:   Wed Nov 20 19:13:13 2024 +0530
+
+    Finalizing the design and info
+
+[33mcommit 1aa7573944074cc104bc3a97de428c2927d0ac7e[m
+Author: ImmortalSul <157292013+ImmortalSul@users.noreply.github.com>
+Date:   Tue Nov 19 17:41:38 2024 +0530
+
+    Main struct of site mostly un changed
+
+[33mcommit 44c6371907311f1b79762646fe36fbbc56a736f2[m
+Author: Sulaiman <157292013+ImmortalSul@users.noreply.github.com>
+Date:   Tue Nov 19 17:36:43 2024 +0530
+
+    Initial commit

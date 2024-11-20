@@ -319,7 +319,7 @@ const HomePage = async () => {
                             Reach Out to Troika Hub and Bring Your Vision to Life
                             </h2>
                             <p className="text-muted-foreground mt-6 max-w-md mx-auto">
-                            Whether you have a project in mind or just want to explore ideas, we're here to help make it happen.
+                            Whether you have a project in mind or just want to explore ideas, we&apos;re here to help make it happen.
                             </p>
                             <div className="mt-6">
                                 <Button asChild>
