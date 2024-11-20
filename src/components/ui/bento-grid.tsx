@@ -75,8 +75,8 @@ export const CARDS = [
     },
     {
         Icon: CalendarIcon,
-        name: "Mocked(idk what to put here)",
-        description: "Ai Resume Builder i think",
+        name: "Every day is a step toward excellence.",
+        description: "we work tirelessly to ensure your satisfaction, innovating and refining our processes to bring your ideas to life",
         className: "col-span-3 lg:col-span-1",
         href: "#",
         cta: "Learn more",

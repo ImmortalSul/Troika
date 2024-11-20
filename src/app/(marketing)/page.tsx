@@ -71,7 +71,7 @@ const HomePage = async () => {
                                 delay={9}
                             />
                             <Image
-                                src="/assets/dashboard-dark.svg"
+                                src="/assets/Profile_Screen.svg"
                                 alt="Dashboard"
                                 width={1200}
                                 height={1200}
@@ -322,21 +322,26 @@ const HomePage = async () => {
                             Whether you have a project in mind or just want to explore ideas, we're here to help make it happen.
                             </p>
                             <div className="mt-6">
-                                <Button>
-                                     Contact Us!
-                                    <ArrowRightIcon className="w-4 h-4 ml-2" />
+                                <Button asChild>
+                                    <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=troikahub@gmail.com">
+                                        Contact Us!
+                                        <ArrowRightIcon className="w-4 h-4 ml-2" />
+                                    </Link>
                                 </Button>
                             </div>
                         </div>
+                        <div className="dark">
+<FloatingDockDemo />
+</div>
                     </LampContainer>
                 </AnimationContainer>
             </MaxWidthWrapper>
 {/* bs attempt on smth cool */}
 
 
-<div className="dark">
+{/* <div className="dark">
 <FloatingDockDemo />
-</div>
+</div> */}
                         
 
 
