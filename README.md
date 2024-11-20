@@ -3,7 +3,8 @@
 # Troika Hub - The All-in-One Creative Lab for Innovators (Landing Page)
 
 <!-- <img src="https://github.com/user-attachments/assets/deab03fd-4234-44c3-a6ad-484c4a1a02a1" alt="Troika Hub Thumbnail"> -->
-<img src="https://github.com/user-attachments/assets/ee867e8e-7871-4289-bd56-3eef40adb9b2" alt="Troika Hub Thumbnail" style="border-radius: 50px;" width="1280">
+<!-- <img src="https://github.com/user-attachments/assets/ee867e8e-7871-4289-bd56-3eef40adb9b2" alt="Troika Hub Thumbnail" style="border-radius: 50px;" width="1280"> -->
+<img src="public\assets\Thumbnail (1).png">
 
 ## Introduction
 Troika Hub is a powerful platform designed to foster creativity and productivity. Whether you're building innovative web apps, automating tasks, or developing AI-driven tools, Troika Hub provides the resources and tools to bring your ideas to life. Our ecosystem includes Inquirix, Optix, Conferix, Scrapix, and more, empowering individuals and teams to create, collaborate, and innovate.
