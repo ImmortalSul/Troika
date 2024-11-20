@@ -18,7 +18,7 @@ Troika Hub is a powerful platform designed to foster creativity and productivity
 
 ## Live Preview
 
-Check out the live demo of Troika Hub’s ecosystem here: [Live Preview](http://troikahub-demo.vercel.app)
+Check out the live demo of Troika Hub’s ecosystem here: [Live Preview](http://troikahub.tech)
 
 ## Watch Demo on YouTube
 
