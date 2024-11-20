@@ -67,10 +67,6 @@ To run Troika Hub locally, follow these steps:
     npm run dev
     ```
 
-## Buy Me a Coffee
-If you enjoy using Troika Hub, consider supporting my work!  
-[Buy Me a Coffee](https://buymeacoffee.com/sulaiman)
-
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
