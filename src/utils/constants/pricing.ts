@@ -103,20 +103,20 @@ export const PLANS = [
         name: "Co-Founder",
         info: "Lead Creative Department",
         price: {
-            monthly: "Chaitayna ",
+            monthly: "Chaitayna.S ",
             
         },
         Products: [
-            { text: "Touches Children" },
-            { text: "Gets all the bitches", tooltip:"got 1 bitch"},
-            { text: "Mastermind skibidi gyatt", tooltip:"6'2 btw" },
-            { text: "Tracks children home", tooltip: "17 children missing last night" },
-            { text: "Doesnt like black people", tooltip: "Trump got elected" },
-            { text: "Watches too many reels", tooltip: "Likes eating watermelon" },
+            { text: "Lead Designer & SM Manager" },
+            { text: "1.5+ Years of Experience", tooltip:"Specialized in 3D, VFX and Logo illustrations and Photoshop" },
+            { text: "Projects Built", tooltip:"McLaren 720S, Star Wars TIE Fighter, Gundam, iPhone mock adverts, and other groundbreaking 3D creations." },
+            { text: "Previous Roles", tooltip: "IIDE Digital Marketting Intern" },
+            { text: "Blender Artist", },
+            { text: "Tech Stack", tooltip: "Blender, Adobe Illustrator, Adobe after effects, Adobe premiere pro, Adobe photoshop, Autodesk Maya" },
         ],
         btn: {
             text: "Contact",
-            href: "",//portfolio
+            href: "https://www.linkedin.com/in/chaitanyasardana/",//portfolio todo
             variant: "default",
         }
     },
@@ -131,13 +131,13 @@ export const PLANS = [
             { text: "Lead Developer & Creator" },
             { text: "4+ Years of Experience", tooltip:"Specialized in building SaaS platforms and Designing Websites"},
             { text: "Projects Built", tooltip:"Inquirix, Optix, Conferix, and other innovative tech solutions." },
-            { text: "Previous Roles", tooltip: "Interned at Deloitte and Capgemini; Worked at early stage governament funded startups." },
-            { text: "Full Stack Dev",},
+            { text: "Previous Roles", tooltip: "Interned at Deloitte and Capgemini; Worked at early stage government funded startups." },
+            { text: " Web3 & Full Stack Developer"},
             { text: "Tech Stack", tooltip: "TypeScript React TRPC AWS Azure Next.js Rust/Solana Three.js GoLang and Various Databases and ORMs" },
         ],
         btn: {
             text: "Contact",
-            href: "",//Portfolio
+            href: "https://sulaiweb.me/",//Portfolio todo lol
             variant: "purple",
         }
     },
@@ -149,16 +149,16 @@ export const PLANS = [
             yearly: Math.round(49 * 12 * (1 - 0.12)),
         },
         Products: [
-            { text: "Touches Children" },
-            { text: "Gets all the bitches", tooltip:"got 1 bitch"},
-            { text: "Mastermind skibidi gyatt", tooltip:"6'2 btw" },
-            { text: "Tracks children home", tooltip: "17 children missing last night" },
-            { text: "Doesnt like black people", tooltip: "Trump got elected" },
-            { text: "Watches too many reels", tooltip: "Likes eating watermelon" },
+            { text: "CTO & Project Lead" },
+            { text: "2 Years of Experience", tooltip:"Specialized in cloud infrastructure and databse management"},
+            { text: "Projects Built", tooltip:"AI SaaS platform, Trading website, AI resume builder, Android to-do app, and other next-gen tech solutions." },
+            { text: "Previous Roles", tooltip: "Codemithra Intern" },
+            { text: "Full Stack Developer",},
+            { text: "Tech Stack", tooltip: "Java, SQL, Next.js, Tailwind, Typescript, Prismadb, MongoDB, AWS" },
         ],
         btn: {
             text: "Contact",
-            href: "",//portfolio
+            href: "www.linkedin.com/in/pratyush-bose",//portfolio todo lol
             variant: "default",
         }
     }

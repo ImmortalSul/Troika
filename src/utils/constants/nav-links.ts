@@ -24,8 +24,8 @@ export const NAV_LINKS = [
                 icon: WaypointsIcon,
             },
             {
-                title: "Sciencebois", //Todo
-                tagline: "Skibidi",
+                title: "AI Saas", //Todo
+                tagline: "Empowering smarter solutions with AI-driven simplicity.",
                 href: "/Products/qr-codes",
                 icon: Calendar,
             },
