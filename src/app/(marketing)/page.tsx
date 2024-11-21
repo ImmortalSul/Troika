@@ -13,7 +13,7 @@ import { currentUser } from "@clerk/nextjs/server";
 import { ArrowRightIcon, CreditCardIcon, SquareDashedMousePointer, StarIcon, Triangle } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FloatingDockDemo } from "./floatingDock/page";
+// import { FloatingDockDemo } from "./floatingDock/page";
 
 
 const HomePage = async () => {
@@ -330,9 +330,9 @@ const HomePage = async () => {
                                 </Button>
                             </div>
                         </div>
-                        <div className="dark">
+                        {/* <div className="dark">
 <FloatingDockDemo />
-</div>
+</div> */}
                     </LampContainer>
                 </AnimationContainer>
             </MaxWidthWrapper>
