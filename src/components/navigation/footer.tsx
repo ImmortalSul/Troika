@@ -63,23 +63,28 @@ const Footer = () => {
                                 </h3>
                                 <ul className="mt-4 text-sm text-muted-foreground">
                                     <li className="">
-                                        <Link href="" className="hover:text-foreground transition-all duration-300">
+                                        <Link href="https://x.com/TroikaHub" className="hover:text-foreground transition-all duration-300">
                                             Facebook
                                         </Link>
                                     </li>
                                     <li className="mt-2">
-                                        <Link href="" className="hover:text-foreground transition-all duration-300">
+                                        <Link href="https://x.com/TroikaHub" className="hover:text-foreground transition-all duration-300">
                                             Instagram
                                         </Link>
                                     </li>
                                     <li className="mt-2">
-                                        <Link href="" className="hover:text-foreground transition-all duration-300">
+                                        <Link href="https://x.com/TroikaHub" className="hover:text-foreground transition-all duration-300">
                                             Twitter
                                         </Link>
                                     </li>
                                     <li className="mt-2">
-                                        <Link href="" className="hover:text-foreground transition-all duration-300">
+                                        <Link href="https://www.linkedin.com/company/troika-hub" className="hover:text-foreground transition-all duration-300">
                                             LinkedIn
+                                        </Link>
+                                    </li>
+                                    <li className="mt-2">
+                                        <Link href="https://github.com/Troika-Hub" className="hover:text-foreground transition-all duration-300">
+                                            github
                                         </Link>
                                     </li>
                                 </ul>
