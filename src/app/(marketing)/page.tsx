@@ -71,7 +71,7 @@ const HomePage = async () => {
                                 delay={9}
                             />
                             <Image
-                                src="/assets/Profile_Screen.svg"
+                                src="/assets/Profile Screen (1).png"
                                 alt="Dashboard"
                                 width={1200}
                                 height={1200}
