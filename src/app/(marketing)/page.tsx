@@ -70,6 +70,7 @@ const HomePage = async () => {
                                 duration={12}
                                 delay={9}
                             />
+                            
                             <Image
                                 src="/assets/Profile Screen (1).png"
                                 alt="Dashboard"
