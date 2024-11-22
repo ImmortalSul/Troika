@@ -3,7 +3,7 @@ import { BentoCard, BentoGrid, CARDS } from "@/components/ui/bento-grid";
 import { BorderBeam } from "@/components/ui/border-beam";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { FloatingDock } from "@/components/ui/floating-dock";
+import { FloatingDock, FloatingDockDemo } from "@/components/ui/floating-dock";
 import { LampContainer } from "@/components/ui/lamp";
 import MagicBadge from "@/components/ui/magic-badge";
 import MagicCard from "@/components/ui/magic-card";
@@ -323,17 +323,17 @@ const HomePage = async () => {
                             Whether you have a project in mind or just want to explore ideas, we&apos;re here to help make it happen.
                             </p>
                             <div className="mt-6">
-                                <Button asChild>
+                                {/* <Button asChild>
                                     <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=troikahub@gmail.com">
                                         Contact Us!
                                         <ArrowRightIcon className="w-4 h-4 ml-2" />
                                     </Link>
-                                </Button>
+                                </Button> */}
                             </div>
                         </div>
                         {/* <div className="dark">
 <FloatingDockDemo />
-</div> */}
+</div> */}<FloatingDockDemo />
                     </LampContainer>
                 </AnimationContainer>
             </MaxWidthWrapper>
@@ -344,7 +344,7 @@ const HomePage = async () => {
 <FloatingDockDemo />
 </div> */}
                         
-
+{/* <FloatingDockDemo /> */}
 
         </div>
         

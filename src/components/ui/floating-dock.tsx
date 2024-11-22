@@ -1,11 +1,9 @@
-"use client";
-
 /**
  * Note: Use position fixed according to your needs
  * Desktop navbar is better positioned at the bottom
  * Mobile navbar is better positioned at bottom right.
  **/
-
+"use client";
 import { cn } from "@/utils";
 import { IconLayoutNavbarCollapse } from "@tabler/icons-react";
 import {
@@ -18,13 +16,25 @@ import {
 } from "framer-motion";
 import Link from "next/link";
 import { useRef, useState } from "react";
+import React from "react";
+
+import {
+  IconBrandGithub,
+  IconBrandX,
+  IconExchange,
+  IconHome,
+  IconNewSection,
+  IconTerminal2,
+  IconBrandLinkedin,
+} from "@tabler/icons-react";
+import Image from "next/image";
 
 export const FloatingDock = ({
   items,
   desktopClassName,
   mobileClassName,
 }: {
-  items: { title: string; icon: React.ReactNode; href: string }[];
+  items: { title: string; icon: React.ReactNode; href: string; target?: string }[];
   desktopClassName?: string;
   mobileClassName?: string;
 }) => {
@@ -40,7 +50,7 @@ const FloatingDockMobile = ({
   items,
   className,
 }: {
-  items: { title: string; icon: React.ReactNode; href: string }[];
+  items: { title: string; icon: React.ReactNode; href: string; target?: string }[];
   className?: string;
 }) => {
   const [open, setOpen] = useState(false);
@@ -72,10 +82,10 @@ const FloatingDockMobile = ({
                 <Link
                   href={item.href}
                   key={item.title}
-                  target="_blank"
-                  className="h-10 w-10 rounded-full bg-gray-50 dark:bg-neutral-900 flex items-center justify-center"
+                  target={item.target}
+                  rel={item.target === "_blank" ? "noopener noreferrer" : undefined}
                 >
-                  <div className="h-4 w-4">{item.icon}</div>
+                  {item.icon}
                 </Link>
               </motion.div>
             ))}
@@ -96,7 +106,7 @@ const FloatingDockDesktop = ({
   items,
   className,
 }: {
-  items: { title: string; icon: React.ReactNode; href: string }[];
+  items: { title: string; icon: React.ReactNode; href: string; target?: string }[];
   className?: string;
 }) => {
   let mouseX = useMotionValue(Infinity);
@@ -121,11 +131,13 @@ function IconContainer({
   title,
   icon,
   href,
+  target,
 }: {
   mouseX: MotionValue;
   title: string;
   icon: React.ReactNode;
   href: string;
+  target?: string;
 }) {
   let ref = useRef<HTMLDivElement>(null);
 
@@ -170,7 +182,7 @@ function IconContainer({
   const [hovered, setHovered] = useState(false);
 
   return (
-    <Link href={href}>
+    <Link href={href} target={target} rel={target === "_blank" ? "noopener noreferrer" : undefined}>
       <motion.div
         ref={ref}
         style={{ width, height }}
@@ -198,5 +210,61 @@ function IconContainer({
         </motion.div>
       </motion.div>
     </Link>
+  );
+}
+
+
+export function FloatingDockDemo() {
+  const links = [
+    {
+      title: "Home",
+      icon: (
+        <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "#",
+    },
+ 
+    {
+      title: "Products",
+      icon: (
+        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "#",
+    },
+    
+    {
+      title: "LinkedIn",
+      icon: (
+        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "https://www.linkedin.com/company/troika-hub",
+      target: "_blank",
+    },
+    
+ 
+    {
+      title: "Twitter",
+      icon: (
+        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "https://x.com/TroikaHub",
+      target: "_blank",
+    },
+    {
+      title: "GitHub",
+      icon: (
+        <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "https://github.com/Troika-Hub",
+      target: "_blank",
+    },
+  ];
+  return (
+    <div className="flex items-center justify-center h-[5rem] w-full dark">
+      <FloatingDock
+        // mobileClassName="translate-y-20" // only for demo, remove for production
+        items={links}
+      />
+    </div>
   );
 }
