@@ -109,7 +109,7 @@ export const PLANS = [
         Products: [
             { text: "Lead Designer & SM Manager" },
             { text: "1.5+ Years of Experience", tooltip:"Specialized in 3D, VFX and Logo illustrations and Photoshop" },
-            { text: "Projects Built", tooltip:"McLaren 720S, Star Wars TIE Fighter, Gundam, iPhone mock adverts, and other groundbreaking 3D creations." },
+            { text: "Projects Built", tooltip:"McLaren 720S, Star Wars TIE Fighter, Space Marine, iPhone mock adverts, and other groundbreaking 3D creations." },
             { text: "Previous Roles", tooltip: "IIDE Digital Marketting Intern" },
             { text: "Blender Artist", },
             { text: "Tech Stack", tooltip: "Blender, Adobe Illustrator, Adobe after effects, Adobe premiere pro, Adobe photoshop, Autodesk Maya" },
