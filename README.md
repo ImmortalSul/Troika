@@ -63,7 +63,7 @@ To run Troika Hub locally, follow these steps:
     ```
 
 4. Run the development server:
-    ```bash
+    ```bash 
     npm run dev
     ```
 
