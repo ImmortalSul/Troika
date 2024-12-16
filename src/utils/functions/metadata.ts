@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const generateMetadata = ({
-    title = `Troika Hub - Crafting Digital Solutions with Precision and Creativity`,
-    description = `${process.env.NEXT_PUBLIC_APP_NAME}.`,
+    title = "Troika Hub - Crafting Digital Solutions with Precision and Creativity",
+    description = "Troika Hub - Where ideas come to life with precision and creativity. Explore our innovative projects and services.",
     image = "/thumbnail.png",
     icons = [
         {
@@ -19,30 +19,33 @@ export const generateMetadata = ({
             rel: "icon",
             sizes: "16x16",
             url: "/favicon-16x16.png"
-        },
-    ],
-    noIndex = false
+        }
+    ]
 }: {
     title?: string;
     description?: string;
     image?: string | null;
     icons?: Metadata["icons"];
-    noIndex?: boolean;
-} = {}): Metadata => ({
-    title,
-    description,
-    icons,
-    openGraph: {
+} = {}): Metadata => {
+    return {
         title,
         description,
-        ...(image && { images: [{ url: image }] }),
-    },
-    twitter: {
-        title,
-        description,
-        ...(image && { card: "summary_large_image", images: [image] }),
-        creator: "@ImmortalSul",
-    },
-    // metadataBase: new URL(process.env.APP_DOMAIN!),
-    ...(noIndex && { robots: { index: false, follow: false } }),
-});
+        icons,
+        openGraph: {
+            title,
+            description,
+            ...(image && { images: [{ url: image }] })
+        },
+        twitter: {
+            title,
+            description,
+            ...(image && { card: "summary_large_image", images: [image] }),
+            creator: "@ImmortalSul"
+        },
+        robots: {
+            index: true, 
+            follow: true 
+        },
+        metadataBase: new URL("https://troikahub.tech")
+    };
+};

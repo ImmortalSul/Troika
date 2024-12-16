@@ -21,11 +21,6 @@
 <priority>0.80</priority>
 </url>
 <url>
-<loc>https://troikahub.tech/auth/sign-in</loc>
-<lastmod>2024-12-12T14:44:26+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
 <loc>https://troikahub.tech/resources/blog</loc>
 <lastmod>2024-12-12T14:44:26+00:00</lastmod>
 <priority>0.80</priority>
@@ -44,11 +39,6 @@
 <loc>https://troikahub.tech/terms</loc>
 <lastmod>2024-12-12T14:44:26+00:00</lastmod>
 <priority>0.80</priority>
-</url>
-<url>
-<loc>https://troikahub.tech/auth/sign-up</loc>
-<lastmod>2024-12-12T14:44:26+00:00</lastmod>
-<priority>0.64</priority>
 </url>
 <url>
 <loc>https://troikahub.tech/resources/blog/maximizing-efficiency-with-troika-hubs-all-in-one-platform</loc>
