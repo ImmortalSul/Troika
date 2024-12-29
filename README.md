@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/e1e0fe16-21f4-44c8-a22d-39b4494433a1" alt="Troika Hub Logo" width="50" height="50">
+<img src="" alt="Troika Hub Logo" width="50" height="50">
 
 # Troika Hub - The All-in-One Creative Lab for Innovators (Landing Page)
 
